@@ -1,2 +1,2 @@
 #!/bin/bash
-gss -C $CFILE -o 'echo $CFILE | cut -d. -fl'.o
+gss -c $CFILE -o 'echo $CFILE | cut -d. -fl'.o
